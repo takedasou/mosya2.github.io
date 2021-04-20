@@ -1,0 +1,33 @@
+@media(max-width: 600px){
+
+  #header{
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+  }
+
+  #works ul{
+    flex-direction: column;
+  }
+
+  #works li{
+    width: 100%;
+  }
+
+  #news dt{
+    float: none;
+    padding: 15px 15px 0 15px;
+  }
+
+  #news dd{
+    padding: 0 15px 15px 15px;
+  }
+
+  #contact dl{
+    flex-direction: column;
+  }
+
+  #contact dd{
+    width: 100%;
+  }
+}

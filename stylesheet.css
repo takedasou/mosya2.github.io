@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  color: #24292e;
+}
+
+li{
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  font-size: 0.9rem;
+}
+
+img{
+  max-width: 100%;
+}
+
+footer{
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  background-color: #24292e;
+}
+
+footer p{
+  color: #fff;
+  font-size: 10px;
+}
+
+.logo-title{
+  line-height: 1px;
+}
+
+.logo-title a{
+  display: block;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto 130px auto;
+  padding: 0 4%;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+}
+
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 270px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+#header ul{
+  display: flex;
+}
+
+#header li{
+  margin-left: 30px;
+}
+
+#header li:hover{
+  opacity: 0.8;
+}
+
+#header nav img{
+  width: 20px;
+  vertical-align: middle;
+}
+
+#main-visual{
+  height: 420px;
+  background-image: url(mainvisual-pc.jpg);
+  background-position: center;
+  margin-bottom: 85px;
+}
+
+#about ul{
+  padding-bottom: 30px;
+}
+
+#about li:first-child{
+  padding-bottom: 30px;
+}
+
+#works ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#works li{
+  width: 31%;
+  padding-bottom: 30px;
+}
+
+#news dl{
+  font-size: 0.9rem;
+  border-top: solid 1px #c8c8c8;
+}
+
+#news dt{
+  float: left;
+  padding: 15px;
+  margin-right: 70px;
+}
+
+#news dd{
+  padding: 15px;
+  border-bottom: solid 1px #c8c8c8;
+}
+
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+#contact dt {
+  width: 15%;
+}
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+#contact dd textarea {
+  height: 10rem;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+}
+#contact .button input:hover {
+  background: #fff;
+  color: #24292e;
+}
